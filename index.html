@@ -23,7 +23,6 @@
       <ul id="desktop-menu" class="hidden md:flex space-x-6">
         <li><a href="#home" class="hover:text-[#22D3EE]">Home</a></li>
         <li><a href="#about" class="hover:text-[#22D3EE]">About</a></li>
-        <li><a href="#Projects" class="hover:text-[#22D3EE]">Projects</a></li>
         <li><a href="#Skills" class="hover:text-[#22D3EE]">Skills</a></li>
         <li><a href="#contact" class="hover:text-[#22D3EE]">Contact</a></li>
       </ul>
@@ -33,10 +32,9 @@
       </button>
 
       <!-- Mobile Menu -->
-      <ul id="mobile-menu" class="absolute top-20 right-4 bg-[#161616] w-72  md:hidden flex flex-col items-center space-y-6 p-6 rounded-lg z-40 shadow-lg">
+      <ul id="mobile-menu" class="absolute top-20 right-4 bg-[#161616] w-72 hidden md:hidden flex flex-col items-center space-y-6 p-6 rounded-lg z-40 shadow-lg">
         <li><a href="#home" class="text-white hover:text-[#22D3EE] text-xl">Home</a></li>
         <li><a href="#about" class="text-white hover:text-[#22D3EE] text-xl">About</a></li>
-        <li><a href="#Projects" class=" text-white hover:text-[#22D3EE] text-xl">Projects</a></li>
         <li><a href="#Skills" class="text-white hover:text-[#22D3EE] text-xl">Skills</a></li>
         <li><a href="#contact" class="text-white hover:text-[#22D3EE] text-xl">Contact</a></li>
       </ul>
@@ -129,7 +127,7 @@
   <section id="about" class="container mx-auto py-16 px-6 md:px-16">
     <h2 class="text-4xl text-center font-bold mb-8">About Me</h2>
 
-    <!-- About Section  -->
+    <!-- About Section Wrapper -->
     <div class="flex flex-col md:flex-row items-center md:items-start space-y-6 md:space-y-0 md:space-x-8">
       <!-- Profile Picture -->
       <div class="flex-shrink-0 text-center">
@@ -168,82 +166,51 @@
     </div>
   </section>
 
-     <!-- Project Section  -->
-
-  <section id="Projects" class="container mx-auto py-16 px-6 md:px-16">
-    <h2 class="text-4xl text-center font-bold mb-8">Projects</h2>
-
- 
-    <div class="flex flex-col md:flex-row items-center md:items-start space-y-6 md:space-y-0 md:space-x-8">
-
-
-      <!-- Terminal UI -->
-      <div class="bg-[#161616] rounded-lg shadow-lg p-4 flex-grow">
-        <!-- Terminal Header -->
-        <div class="flex items-center space-x-2 mb-4">
-          <div class="w-3 h-3 bg-red-500 rounded-full"></div>
-          <div class="w-3 h-3 bg-green-500 rounded-full"></div>
-          <div class="w-3 h-3 bg-yellow-500 rounded-full"></div>
-          <p class="text-[#22D3EE] font-mono text-sm ml-4">Projects.sh</p>
-        </div>
-
-        <!-- Terminal Content -->
-        <div class="text-[#A3A3A3] font-mono text-sm">
-          <p class="mb-4">loading projects.....</p>
-          <p class="mb-2"><span class="text-[#22D3EE]">$praneeth@portfolio:-$</span> Projects_me</p>
-          <span class="font-mono text-red-700">Error: No projects found.
-          </span><br>
-          <span class="font-mono text-green-600">Coming soon:  projects are on the way!</span>
-        </div>
-      </div>
-    </div>
-  </section>
-
   <section id="Skills" class=" ">
     <h2 class="text-4xl text-center font-bold mb-8">Skills</h2>
     <div class="container mx-auto grid grid-cols-2 md:grid-cols-4 gap-6 px-6 md:px-16">
-   <!-- Skill Card 1 -->
-   <div class="bg-[#161616] hover:border border-orange-800 rounded-full shadow-lg p-4 flex flex-col items-center hover:transform hover:translate-y-3 transition-all">
-    <img src="html.svg" alt="Html" class="w-16 h-16 mb-4">
-    <h3 class="text-xl font-semibold">Html5</h3>
-    <p class="text-[#A3A3A3]">Advanced</p>
-  </div>
+      <!-- Skill Card 1 -->
+      <div class="bg-[#161616] rounded-full shadow-lg p-4 flex flex-col items-center">
+        <img src="html.svg" alt="Html" class="w-16 h-16 mb-4">
+        <h3 class="text-xl font-semibold">Html5</h3>
+        <p class="text-[#A3A3A3]">Advanced</p>
+      </div>
 
-  <!-- Skill Card 2 -->
-  <div class="bg-[#161616] hover:border border-blue-600 rounded-full shadow-lg p-4 flex flex-col items-center hover:transform hover:translate-y-3 transition-all">
-    <img src="css.svg" alt="css" class="w-16 h-16 mb-4">
-    <h3 class="text-xl font-semibold">Css</h3>
-    <p class="text-[#A3A3A3]">Advanced</p>
-  </div>
+      <!-- Skill Card 2 -->
+      <div class="bg-[#161616] rounded-full shadow-lg p-4 flex flex-col items-center">
+        <img src="css.svg" alt="css" class="w-16 h-16 mb-4">
+        <h3 class="text-xl font-semibold">Css</h3>
+        <p class="text-[#A3A3A3]">Advanced</p>
+      </div>
 
-  <!-- Skill Card 3 -->
-  <div class="bg-[#161616] hover:border border-yellow-300 rounded-full shadow-lg p-4 flex flex-col items-center hover:transform hover:translate-y-3 transition-all">
-    <img src="javascript.svg" alt="GitHub" class="w-16 h-16 mb-4">
-    <h3 class="text-xl font-semibold">Javascript</h3>
-    <p class="text-[#A3A3A3]">Intermediate</p>
-  </div>
+      <!-- Skill Card 3 -->
+      <div class="bg-[#161616] rounded-full shadow-lg p-4 flex flex-col items-center">
+        <img src="javascript.svg" alt="GitHub" class="w-16 h-16 mb-4">
+        <h3 class="text-xl font-semibold">Javascript</h3>
+        <p class="text-[#A3A3A3]">Intermediate</p>
+      </div>
 
 
 
-  <!-- Skill Card 4 -->
-  <div class="bg-[#161616] hover:border border-blue-700 rounded-full shadow-lg p-4 flex flex-col items-center hover:transform hover:translate-y-3 transition-all">
-    <img src="azure.svg" alt="Azure" class="w-16 h-16 mb-4">
-    <h3 class="text-xl font-semibold">Azure</h3>
-    <p class="text-[#A3A3A3]">Advanced</p>
-  </div>
+      <!-- Skill Card 4 -->
+      <div class="bg-[#161616] rounded-full shadow-lg p-4 flex flex-col items-center">
+        <img src="azure.svg" alt="Azure" class="w-16 h-16 mb-4">
+        <h3 class="text-xl font-semibold">Azure</h3>
+        <p class="text-[#A3A3A3]">Intermediate</p>
+      </div>
 
-  <!-- Skill Card 5 -->
-  <div class="bg-[#161616] hover:border border-cyan-500 rounded-full shadow-lg p-4 flex flex-col items-center hover:transform hover:translate-y-3 transition-all">
-    <img src="tailwind.svg" alt="Tailwind" class="w-16 h-16 mb-4">
-    <h3 class="text-xl font-semibold">Tailwind css</h3>
-    <p class="text-[#A3A3A3]">Advanced</p>
-  </div>
+      <!-- Skill Card 5 -->
+      <div class="bg-[#161616] rounded-full shadow-lg p-4 flex flex-col items-center">
+        <img src="tailwind.svg" alt="Tailwind" class="w-16 h-16 mb-4">
+        <h3 class="text-xl font-semibold">Tailwind css</h3>
+        <p class="text-[#A3A3A3]">Advanced</p>
+      </div>
 
-  <!-- Skill Card 6 -->
-  <div class="bg-[#161616] hover:border border-y-yellow-300 hover:border-x-blue-300 rounded-full shadow-lg p-4 flex flex-col items-center hover:transform hover:translate-y-3 transition-all">
-    <img src="python.svg" alt="Python" class="w-16 h-16 mb-4">
-    <h3 class="text-xl font-semibold">Python</h3>
-    <p class="text-[#A3A3A3]">Advanced</p>
+      <!-- Skill Card 6 -->
+      <div class="bg-[#161616] rounded-full shadow-lg p-4 flex flex-col items-center">
+        <img src="python.svg" alt="Python" class="w-16 h-16 mb-4">
+        <h3 class="text-xl font-semibold">Python</h3>
+        <p class="text-[#A3A3A3]">Advanced</p>
 
 
 
