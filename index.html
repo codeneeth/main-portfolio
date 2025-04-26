@@ -1,0 +1,266 @@
+<!doctype html>
+<html lang="en" class="dark">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+  <meta name="description" content="Praneeth Sai Kancheti's Portfolio">
+  <meta name="author" content="Praneeth Sai Kancheti">
+  
+
+  <link href="./output.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" />
+  <link rel="shortcut icon" href="favicon.png" type="image/x-icon">
+</head>
+
+<body class="bg-[#09090B] text-[#FAFAFA]">
+  <!-- Header -->
+  <header class="bg-transparent">
+    <nav class="container mx-auto flex items-center justify-between p-4">
+      <div class="text-2xl font-bold">Praneeth</div>
+      <!-- Desktop Menu -->
+      <ul id="desktop-menu" class="hidden md:flex space-x-6">
+        <li><a href="#home" class="hover:text-[#22D3EE]">Home</a></li>
+        <li><a href="#about" class="hover:text-[#22D3EE]">About</a></li>
+        <li><a href="#Skills" class="hover:text-[#22D3EE]">Skills</a></li>
+        <li><a href="#contact" class="hover:text-[#22D3EE]">Contact</a></li>
+      </ul>
+      <!-- Mobile Menu Button -->
+      <button id="menu-btn" class="md:hidden text-2xl focus:outline-none z-50 relative">
+        <i class="fas fa-bars"></i>
+      </button>
+
+      <!-- Mobile Menu -->
+      <ul id="mobile-menu" class="absolute top-20 right-4 bg-[#161616] w-72 hidden md:hidden flex flex-col items-center space-y-6 p-6 rounded-lg z-40 shadow-lg">
+        <li><a href="#home" class="text-white hover:text-[#22D3EE] text-xl">Home</a></li>
+        <li><a href="#about" class="text-white hover:text-[#22D3EE] text-xl">About</a></li>
+        <li><a href="#Skills" class="text-white hover:text-[#22D3EE] text-xl">Skills</a></li>
+        <li><a href="#contact" class="text-white hover:text-[#22D3EE] text-xl">Contact</a></li>
+      </ul>
+      
+
+      <!-- Social Icons -->
+      <div class="hidden md:flex space-x-4">
+        <a href="https://github.com/codeneeth" target="_blank" class="text-[#FAFAFA] hover:text-[#22D3EE]">
+          <i class="fab fa-github"></i>
+        </a>
+        <a href="https://www.linkedin.com/in/praneeth-sai-kancheti-0b1b1a1b4/" target="_blank"
+          class="text-[#FAFAFA] hover:text-[#22D3EE]">
+          <i class="fab fa-linkedin"></i>
+        </a>
+        <a href="https://www.instagram.com/codeneeth/" target="_blank" class="text-[#FAFAFA] hover:text-[#22D3EE]">
+          <i class="fab fa-instagram"></i>
+        </a>
+        <a href="https://twitter.com/codeneeth" target="_blank" class="text-[#FAFAFA] hover:text-[#22D3EE]">
+          <i class="fab fa-twitter"></i>
+        </a>
+    </nav>
+  </header>
+
+  <!-- Home Section -->
+
+
+
+
+  <section id="home"
+    class="h-screen flex flex-col-reverse md:flex-row items-center justify-between px-6 md:px-16 relative pt-16">
+    <!-- Left Content -->
+    <div class="text-left space-y-6 md:w-1/2">
+      <div class="flex items-center space-x-2">
+        <img src="waving-hand.gif" alt="Waving Hand" class="w-12 h-12">
+        <p class="text-lg">Hey</p>
+      </div>
+      <h1 class="text-5xl font-bold leading-tight">
+        I'm Praneeth Sai Kancheti
+      </h1>
+      
+      <h2 class="text-3xl font-semibold text-white">
+        I am a <span id="typed-text" class="text-[#22D3EE]"></span>
+      </h2>
+      
+      <p class="text-lg text-[#A3A3A3] leading-relaxed">
+        I focus on developing user-friendly web applications that meet the client's requirements, with attention to
+        detail, scalability, and performance.
+      </p>
+      <a href="#about" class="px-6 py-4 bg-[#22D3EE] text-[#0A0A0A] rounded-md hover:bg-[#161616] hover:text-[#E5E5E5]">
+        About Me
+      </a>
+    </div>
+
+
+    <!-- Right Image with Hexagon Grid -->
+    <div class="relative md:mt-0 md:w-1/2 flex justify-center">
+      <!-- Main Image -->
+      <img src="hero-2.png" alt="Hero Image" class="w-48 h-48 md:w-80 md:h-80 rounded-full relative z-10">
+
+      <!-- Hexagon Grid -->
+      <div class="absolute inset-0 flex justify-center items-center">
+        <!-- Hexagon 1 -->
+        <div
+          class="absolute bg-[#161616] p-2 md:p-4 rounded-full shadow-lg z-20 opacity-70 hover:opacity-100 transition-opacity duration-300"
+          style="top: -40px; left: 50%; transform: translateX(-50%);">
+          <img src="azure.svg" alt="Azure Logo" class="w-8 h-8 md:w-12 md:h-12">
+        </div>
+        <!-- Hexagon 2 -->
+        <div
+          class="absolute bg-[#161616] p-2 md:p-4 rounded-full shadow-lg z-20 opacity-70 hover:opacity-100 transition-opacity duration-300"
+          style="bottom: -40px; left: 50%; transform: translateX(-50%);">
+          <img src="javascript.svg" alt="JavaScript Logo" class="w-8 h-8 md:w-12 md:h-12">
+        </div>
+        <!-- Hexagon 3 -->
+        <div
+          class="absolute bg-[#161616] p-2 md:p-4 rounded-full shadow-lg z-20 opacity-70 hover:opacity-100 transition-opacity duration-300"
+          style="top: 50%; left: -40px; transform: translateY(-50%);">
+          <img src="github.svg" alt="GitHub Logo" class="w-8 h-8 md:w-12 md:h-12">
+        </div>
+        <!-- Hexagon 4 -->
+        <div
+          class="absolute bg-[#161616] p-2 md:p-4 rounded-full shadow-lg z-20 opacity-70 hover:opacity-100 transition-opacity duration-300"
+          style="top: 50%; right: -40px; transform: translateY(-50%);">
+          <img src="python.svg" alt="Python Logo" class="w-8 h-8 md:w-12 md:h-12">
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="about" class="container mx-auto py-16 px-6 md:px-16">
+    <h2 class="text-4xl text-center font-bold mb-8">About Me</h2>
+
+    <!-- About Section Wrapper -->
+    <div class="flex flex-col md:flex-row items-center md:items-start space-y-6 md:space-y-0 md:space-x-8">
+      <!-- Profile Picture -->
+      <div class="flex-shrink-0 text-center">
+        <div class="relative bg-[#161616] rounded-lg shadow-lg p-4">
+          <img src="profile-pic.jpg" alt="Profile Picture" class="w-40 h-40 md:w-60 md:h-60 rounded-lg object-cover">
+        </div>
+        <p class="text-[#A3A3A3] font-mono text-sm mt-4">
+          &lt; I build stuff 🚀 /&gt;
+        </p>
+      </div>
+
+      <!-- Terminal UI -->
+      <div class="bg-[#161616] rounded-lg shadow-lg p-4 flex-grow">
+        <!-- Terminal Header -->
+        <div class="flex items-center space-x-2 mb-4">
+          <div class="w-3 h-3 bg-red-500 rounded-full"></div>
+          <div class="w-3 h-3 bg-green-500 rounded-full"></div>
+          <div class="w-3 h-3 bg-yellow-500 rounded-full"></div>
+          <p class="text-[#22D3EE] font-mono text-sm ml-4">about.sh</p>
+        </div>
+
+        <!-- Terminal Content -->
+        <div class="text-[#A3A3A3] font-mono text-sm">
+          <p class="mb-4">Welcome! Thanks for taking the time to check out my website.</p>
+          <p class="mb-2"><span class="text-[#22D3EE]">$praneeth@portfolio:-$</span> about.me</p>
+          <ul class="list-disc list-inside">
+            <li>My name is Praneeth Sai.</li>
+            <li>I am currently pursuing a B.Tech degree and started my coding journey in 2022 after completing my 12th
+              grade.</li>
+            <li>I am passionate about coding and continuously work to sharpen my skills and knowledge.</li>
+            <li> Currently, I am focusing on backend development and building real-world projects.</li>
+            <li>I aim to deepen my expertise in backend technologies and create impactful software solutions.</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="Skills" class=" ">
+    <h2 class="text-4xl text-center font-bold mb-8">Skills</h2>
+    <div class="container mx-auto grid grid-cols-2 md:grid-cols-4 gap-6 px-6 md:px-16">
+      <!-- Skill Card 1 -->
+      <div class="bg-[#161616] rounded-full shadow-lg p-4 flex flex-col items-center">
+        <img src="html.svg" alt="Html" class="w-16 h-16 mb-4">
+        <h3 class="text-xl font-semibold">Html5</h3>
+        <p class="text-[#A3A3A3]">Advanced</p>
+      </div>
+
+      <!-- Skill Card 2 -->
+      <div class="bg-[#161616] rounded-full shadow-lg p-4 flex flex-col items-center">
+        <img src="css.svg" alt="css" class="w-16 h-16 mb-4">
+        <h3 class="text-xl font-semibold">Css</h3>
+        <p class="text-[#A3A3A3]">Advanced</p>
+      </div>
+
+      <!-- Skill Card 3 -->
+      <div class="bg-[#161616] rounded-full shadow-lg p-4 flex flex-col items-center">
+        <img src="javascript.svg" alt="GitHub" class="w-16 h-16 mb-4">
+        <h3 class="text-xl font-semibold">Javascript</h3>
+        <p class="text-[#A3A3A3]">Intermediate</p>
+      </div>
+
+
+
+      <!-- Skill Card 4 -->
+      <div class="bg-[#161616] rounded-full shadow-lg p-4 flex flex-col items-center">
+        <img src="azure.svg" alt="Azure" class="w-16 h-16 mb-4">
+        <h3 class="text-xl font-semibold">Azure</h3>
+        <p class="text-[#A3A3A3]">Intermediate</p>
+      </div>
+
+      <!-- Skill Card 5 -->
+      <div class="bg-[#161616] rounded-full shadow-lg p-4 flex flex-col items-center">
+        <img src="tailwind.svg" alt="Tailwind" class="w-16 h-16 mb-4">
+        <h3 class="text-xl font-semibold">Tailwind css</h3>
+        <p class="text-[#A3A3A3]">Advanced</p>
+      </div>
+
+      <!-- Skill Card 6 -->
+      <div class="bg-[#161616] rounded-full shadow-lg p-4 flex flex-col items-center">
+        <img src="python.svg" alt="Python" class="w-16 h-16 mb-4">
+        <h3 class="text-xl font-semibold">Python</h3>
+        <p class="text-[#A3A3A3]">Advanced</p>
+
+
+
+
+      </div>
+  </section>
+
+  <section id="contact" class="container  shadow-lg mx-auto py-16 px-6 md:px-16">
+    <h2 class="text-4xl text-center font-bold mb-8">Contact Me</h2>
+    <p class="text-center text-lg mb-4">Feel free to reach out for collaborations or just to say hi!</p>
+    <div class="flex justify-center flex-col items-center space-y-5 space-x-4">
+      <input type="text" placeholder="Your Name" class="bg-[#161616] text-[#FAFAFA] rounded-full px-4 py-2 w-64">
+      <input type="email" placeholder="Your Email" class="bg-[#161616] text-[#FAFAFA] rounded-full px-4 py-2 w-64">
+      <textarea placeholder="Your Message"
+        class="bg-[#161616] text-[#FAFAFA] text-center rounded-full px-4 py-2 w-64 h-32"></textarea>
+      <button
+        class="bg-[#22D3EE] text-[#0A0A0A] rounded-full px-6 py-2 hover:bg-[#161616] hover:text-[#E5E5E5]">Send</button>
+
+    </div>
+
+
+  </section>
+
+  <footer>
+    <div class="bg-[#161616] text-center py-4">
+      <p class="text-[#A3A3A3]">© 2025 Praneeth Sai Kancheti. All rights reserved.</p>
+      <div class="flex justify-center space-x-4 mt-2">
+        <a href="https://github.com/codeneeth" target="_blank" class="text-[#FAFAFA] hover:text-[#22D3EE]">
+          <i class="fab fa-github"></i>
+        </a>
+        <a href="https://www.linkedin.com/in/praneeth-sai-kancheti-0b1b1a1b4/" target="_blank"
+          class="text-[#FAFAFA] hover:text-[#22D3EE]">
+          <i class="fab fa-linkedin"></i>
+        </a>
+        <a href="https://www.instagram.com/codeneeth/" target="_blank" class="text-[#FAFAFA] hover:text-[#22D3EE]">
+          <i class="fab fa-instagram"></i>
+        </a>
+        <a href="https://twitter.com/codeneeth" target="_blank" class="text-[#FAFAFA] hover:text-[#22D3EE]">
+          <i class="fab fa-twitter"></i>
+        </a>
+      </div>
+      <p class="text-[#A3A3A3] mt-2">Made with ❤️ by <span class="text-[#22D3EE]"><a
+            href="https://github.com/codeneeth">Praneeth</a> </span></p>
+    </div>
+  </footer>
+
+
+
+  <script src="script.js"></script>
+</body>
+
+
+</html>
