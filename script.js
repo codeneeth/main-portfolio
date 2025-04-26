@@ -8,7 +8,7 @@ menuBtn.addEventListener('click', () => {
 
 
 document.addEventListener("DOMContentLoaded", function () {
-  const phrases = [ "Coder", "Python Dev",  "Developer", "Designer", "Freelancer", "Tech Enthusiast"];
+  const phrases = [ "Coder", "Python Dev",  "Web Developer", "Designer", "Tech Enthusiast"];
   const typedText = document.getElementById("typed-text");
 
   let phraseIndex = 0;
