@@ -12,8 +12,7 @@ A fully responsive personal portfolio website built using **HTML**, **Tailwind C
 - Clean layout built with Tailwind CSS utility classes
 
 ## Live Demo
-
-*Add your live portfolio link here if available*
+https://codeneeth.github.io/main-portfolio/
 
 ## Tech Stack
 
